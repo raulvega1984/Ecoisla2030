@@ -1,0 +1,769 @@
+{
+    "dup_type": "lite",
+    "created": "2024-12-11 13:30:49",
+    "version_dup": "1.5.11.2",
+    "version_wp": "6.3.5",
+    "version_db": "10.5.26",
+    "version_php": "7.4.33",
+    "version_os": "Linux",
+    "blogname": "ECOISLA",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$p1pBSDMGoM9GtBwUCwtKSe2g0ceBrCcjoPwwBeoIOeddvCKFM7MGu",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "ecoisla2030.org",
+            "path": "\/",
+            "blogname": "ECOISLA",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "webmaster",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/ecoisla2030.org",
+            "fullSiteUrl": "https:\/\/ecoisla2030.org",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/ecoisla2030\/www\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/ecoisla2030\/www\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/ecoisla2030.org\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "wp_9e4f21aef8d2fc8d",
+        "tablesBaseCount": 23,
+        "tablesFinalCount": 23,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 19338,
+        "tablesSizeOnDisk": 163381248,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 60,
+                "insertedRows": 62,
+                "size": 196608
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 167,
+                "insertedRows": 176,
+                "size": 49152
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 28,
+                "insertedRows": 28,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 65536
+            },
+            "wp_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 426,
+                "insertedRows": 432,
+                "size": 10043392
+            },
+            "wp_pmxe_exports": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_pmxe_google_cats": {
+                "inaccurateRows": 5395,
+                "insertedRows": 5371,
+                "size": 393216
+            },
+            "wp_pmxe_posts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_pmxe_templates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 11948,
+                "insertedRows": 11858,
+                "size": 98746368
+            },
+            "wp_posts": {
+                "inaccurateRows": 1030,
+                "insertedRows": 1493,
+                "size": 53248000
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 28,
+                "insertedRows": 28,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 167,
+                "insertedRows": 167,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 28,
+                "insertedRows": 28,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 49,
+                "insertedRows": 49,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 65536
+            },
+            "wp_wpforms_tasks_meta": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 16384
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.5.26",
+        "versionComment": "Debian 11",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 2,
+        "packageName": "Web_Ecoisla_2030_diciembre_2024",
+        "packageHash": "7c5bd24-11133049",
+        "secondaryHash": "3d0a342-11133049"
+    },
+    "fileInfo": {
+        "dirCount": 1766,
+        "fileCount": 11385,
+        "size": 584211736
+    },
+    "wpInfo": {
+        "version": "6.3.5",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/ecoisla2030\/www",
+        "targetPaths": [
+            "\/home\/ecoisla2030\/www"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "webmaster",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/ecoisla2030\/www\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "A(f06IiaY$S(D0kd5l41Fy7r&w!7xavuarA%Q&JsbBgol1@S&2Cx4xQXiwhez%VP",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "VyGzcdP&3HD7%9ROJ05#GuIA6byR4mKQQg5PR295Wg8g@9VvK41*cQl0%VmrhQF7",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "D!vqa9s34syq*nCfHLYG3Da@wwc#Ra(rRBET7gb%t4EpzybgBVfkUI!weCn(dGI$",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "2gN7vcRVkBFneMDHrD9SV1im6%HJy#*hs^h!ro9WDOZ%klO$huE97zb4*%cWtbj*",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "1geDsM^Qylsx@A2wmb1rFHK4cF@RAvh2mTi5fp6smQi1PLE3Yj1E8Mwy46KxWxrG",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "HBpua$wM62zyz6889xiERwvg3YlZ9Fg&77#Y7x4ahQ%FUSEkuUpWpAEnzazifB%%",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "Z%5GPkN&(v7XXf6f2MEzfyXbq3(RkLZ#vlf3YxHIyztEJIW%RRWJhQ5bKjRaS%Wq",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "2FcDC40WT(rUc7oscrELU6@os9zUkhdkeyPPfCX*oQ^A$nxFr*PO%!01PtgWKHW6",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/ecoisla2030\/www\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/ecoisla2030.org\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/ecoisla2030\/www\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/ecoisla2030.org\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPLANG": {
+                    "value": "es_ES",
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/ecoisla2030\/www\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 509,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/ecoisla2030\/www\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/ecoisla2030\/www\/wp-content\/themes\/astra-child",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/ecoisla2030\/www\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/ecoisla2030.org\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/ecoisla2030.org",
+                "homeUrl": "https:\/\/ecoisla2030.org",
+                "loginUrl": "https:\/\/ecoisla2030.org\/wp-login.php",
+                "contentUrl": "https:\/\/ecoisla2030.org\/wp-content",
+                "uploadBaseUrl": "http:\/\/ecoisla2030.org\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/ecoisla2030.org\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/ecoisla2030.org\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/ecoisla2030.org\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/ecoisla2030\/www",
+                    "abs": "\/home\/ecoisla2030\/www",
+                    "wpconfig": "\/home\/ecoisla2030\/www",
+                    "wpcontent": "\/home\/ecoisla2030\/www\/wp-content",
+                    "uploads": "\/home\/ecoisla2030\/www\/wp-content\/uploads",
+                    "plugins": "\/home\/ecoisla2030\/www\/wp-content\/plugins",
+                    "muplugins": "\/home\/ecoisla2030\/www\/wp-content\/mu-plugins",
+                    "themes": "\/home\/ecoisla2030\/www\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/ecoisla2030\/www",
+                    "abs": "\/home\/ecoisla2030\/www",
+                    "wpconfig": "\/home\/ecoisla2030\/www",
+                    "wpcontent": "\/home\/ecoisla2030\/www\/wp-content",
+                    "uploads": "\/home\/ecoisla2030\/www\/wp-content\/uploads",
+                    "plugins": "\/home\/ecoisla2030\/www\/wp-content\/plugins",
+                    "muplugins": "\/home\/ecoisla2030\/www\/wp-content\/mu-plugins",
+                    "themes": "\/home\/ecoisla2030\/www\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "advanced-custom-fields\/acf.php": {
+                "slug": "advanced-custom-fields\/acf.php",
+                "name": "Advanced Custom Fields",
+                "version": "6.1.6",
+                "pluginURI": "https:\/\/www.advancedcustomfields.com",
+                "author": "WP Engine",
+                "authorURI": "https:\/\/wpengine.com\/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=plugin_directory&utm_content=advanced_custom_fields",
+                "description": "Customize WordPress with powerful, professional and intuitive fields.",
+                "title": "Advanced Custom Fields",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "jquery-collapse-o-matic\/collapse-o-matic.php": {
+                "slug": "jquery-collapse-o-matic\/collapse-o-matic.php",
+                "name": "Collapse-O-Matic",
+                "version": "1.8.5.5",
+                "pluginURI": "https:\/\/pluginoven.com\/plugins\/collapse-o-matic\/",
+                "author": "twinpictures, baden03",
+                "authorURI": "https:\/\/twinpictures.de\/",
+                "description": "Collapse-O-Matic adds an [expand] shortcode that wraps content into a lovely, jQuery collapsible div.",
+                "title": "Collapse-O-Matic",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.11.2",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.13.2",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "metricool\/metricool.php": {
+                "slug": "metricool\/metricool.php",
+                "name": "Metricool",
+                "version": "1.19",
+                "pluginURI": "https:\/\/metricool.com\/",
+                "author": "Metricool",
+                "authorURI": "http:\/\/www.metricool.com\/",
+                "description": "Allows you to track your users and readers using metricool.com",
+                "title": "Metricool",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "pdf-embedder\/pdf_embedder.php": {
+                "slug": "pdf-embedder\/pdf_embedder.php",
+                "name": "PDF Embedder",
+                "version": "4.7.1",
+                "pluginURI": "https:\/\/wp-pdf.com",
+                "author": "PDF Embedder",
+                "authorURI": "https:\/\/wp-pdf.com",
+                "description": "Embed PDFs straight into your posts and pages, with flexible width and height. No third-party services required. Compatible with Gutenberg Editor WordPress",
+                "title": "PDF Embedder",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "pdf-viewer-for-elementor\/index.php": {
+                "slug": "pdf-viewer-for-elementor\/index.php",
+                "name": "PDF viewer for Elementor",
+                "version": "2.9.3",
+                "pluginURI": "https:\/\/redlettuce.com\/elementor-pdf-viewer",
+                "author": "RedLettuce Plugins",
+                "authorURI": "https:\/\/redlettuce.com",
+                "description": "This plugin helps you embed PDF documents to Elementor quickly and easily.",
+                "title": "PDF viewer for Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "post-submit-plugin\/post-submit-plugin.php": {
+                "slug": "post-submit-plugin\/post-submit-plugin.php",
+                "name": "Post submit plugin",
+                "version": "0.6",
+                "pluginURI": "https:\/\/www.0m1n3m.com\/psp",
+                "author": "Omar Glez",
+                "authorURI": "https:\/\/www.0m1n3m.com\/",
+                "description": "Plugin for post submission from the frontend",
+                "title": "Post submit plugin",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "premium-addons-for-elementor\/premium-addons-for-elementor.php": {
+                "slug": "premium-addons-for-elementor\/premium-addons-for-elementor.php",
+                "name": "Premium Addons for Elementor",
+                "version": "4.9.57",
+                "pluginURI": "https:\/\/premiumaddons.com",
+                "author": "Leap13",
+                "authorURI": "https:\/\/leap13.com\/",
+                "description": "Premium Addons for Elementor plugin includes widgets and addons like Blog Post Grid, Megamenu, Post Carousel, Advanced Slider, Modal Popup, Google Maps, Pricing Tables, Lottie Animations, Countdown, Testimonials.",
+                "title": "Premium Addons for Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "safe-svg\/safe-svg.php": {
+                "slug": "safe-svg\/safe-svg.php",
+                "name": "Safe SVG",
+                "version": "2.1.1",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/safe-svg\/",
+                "author": "10up",
+                "authorURI": "https:\/\/10up.com",
+                "description": "Enable SVG uploads and sanitize them to stop XML\/SVG vulnerabilities in your WordPress website",
+                "title": "Safe SVG",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "astra-sites\/astra-sites.php": {
+                "slug": "astra-sites\/astra-sites.php",
+                "name": "Starter Templates",
+                "version": "3.2.1",
+                "pluginURI": "https:\/\/wpastra.com\/",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/www.brainstormforce.com",
+                "description": "Starter Templates is all in one solution for complete starter sites, single page templates, blocks & images. This plugin offers the premium library of ready templates & provides quick access to beautiful Pixabay images that can be imported in your website easily.",
+                "title": "Starter Templates",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "under-construction-page\/under-construction.php": {
+                "slug": "under-construction-page\/under-construction.php",
+                "name": "Under Construction",
+                "version": "3.97",
+                "pluginURI": "https:\/\/underconstructionpage.com\/",
+                "author": "WebFactory Ltd",
+                "authorURI": "https:\/\/www.webfactoryltd.com\/",
+                "description": "Put your site behind a great looking under construction, coming soon, maintenance mode or landing page.",
+                "title": "Under Construction",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.8.1.2",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "astra-child": {
+                "slug": "astra-child",
+                "themeName": "Astra Child",
+                "version": "1.0.0",
+                "themeURI": "",
+                "parentTheme": "astra",
+                "template": "astra",
+                "stylesheet": "astra-child",
+                "description": "Astra is the fastest, fully customizable &amp; beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!",
+                "author": "Brainstorm Force",
+                "authorURI": "http:\/\/wpastra.com\/about\/",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "astra": {
+                "slug": "astra",
+                "themeName": "Astra",
+                "version": "4.1.4",
+                "themeURI": "https:\/\/wpastra.com\/",
+                "parentTheme": false,
+                "template": "astra",
+                "stylesheet": "astra",
+                "description": "Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/wpastra.com\/about\/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme",
+                "tags": [
+                    "custom-menu",
+                    "custom-logo",
+                    "entertainment",
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "e-commerce",
+                    "right-sidebar",
+                    "custom-colors",
+                    "editor-style",
+                    "featured-images",
+                    "full-width-template",
+                    "microformats",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwenty": {
+                "slug": "twentytwenty",
+                "themeName": "Twenty Twenty",
+                "version": "2.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwenty\/",
+                "parentTheme": false,
+                "template": "twentytwenty",
+                "stylesheet": "twentytwenty",
+                "description": "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "blog",
+                    "one-column",
+                    "custom-background",
+                    "custom-colors",
+                    "custom-logo",
+                    "custom-menu",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "full-width-template",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "block-patterns",
+                    "block-styles",
+                    "wide-blocks",
+                    "accessibility-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.1",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "ECOISLA"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "Web_Ecoisla_2030_diciembre_2024_7c5bd24e57cde7bb9938_20241211133049_installer-backup.php",
+    "package_name": "Web_Ecoisla_2030_diciembre_2024_7c5bd24e57cde7bb9938_20241211133049_archive.zip",
+    "package_hash": "7c5bd24-11133049",
+    "package_notes": ""
+}
